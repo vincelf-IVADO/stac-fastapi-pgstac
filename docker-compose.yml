@@ -57,7 +57,7 @@ services:
     command:
       - "./scripts/wait-for-it.sh"
       - "-t"
-      - "60"
+      - "120"
       - "app:8082"
       - "--"
       - "python"
